@@ -17,4 +17,26 @@ Before moving directly towards the first step, that is synthesis, we will take a
 <br>
 First of all, we will be using Ubuntu 18.04 operating system for using OpenLANE Package. <br>
 (https://github.com/user-attachments/assets/0a259704-b994-448b-a5bb-f720af99302b)
+<br>
+<p4>To run OpenLANE, we have to open the file which contains complete package of OpenLANE applications and design. And then enter:-</p4> <br>
+<pre id="code-block">
+  <code>
+    docker
+  </code>
+</pre>
+After that the promot symbol will change into some numericals "bash-4.2$" then enter:-
+<pre id="code-block">
+  <code>
+   ./flow.tcl -interactive
+  </code>
+</pre>
+(https://github.com/user-attachments/assets/3f957826-72d7-4783-8ab0-249eb1a354c5) <br>
+We will require the package <i>openlane 0.9</i>, hence we will import that package by typing the code:-
+<pre id-"code-block>
+  <code>
+    package require openlane 0.9
+  </code>
+</pre>
+
+
 
