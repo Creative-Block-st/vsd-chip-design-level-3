@@ -12,38 +12,4 @@ Here we are talking about an open source package desigened to create *GDSII* fil
 <li>Sign off
 </ol>
 <br>
-Before moving directly towards the first step, that is synthesis, we will take a look on the fundamentals which will be influensing in our work. 
-<pre id="code-block">
-  <code>
-    def my_function(x):
-      """This is an example function."""
-      return x * 2
-
-    print(my_function(5))
-  </code>
-</pre>
-
-<button id="copy-button">Copy</button>
-
-<script>
-  const codeBlock = document.getElementById('code-block');
-  const copyButton = document.getElementById('copy-button');
-
-  copyButton.addEventListener('click', () => {
-    const range = document.createRange();
-    range.selectNodeContents(codeBlock);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    navigator.clipboard.writeText(window.getSelection().toString())
-      .then(() => {
-        copyButton.textContent = 'Copied!';
-        setTimeout(() => {
-          copyButton.textContent = 'Copy';
-        }, 2000); // Reset button text after 2 seconds
-      })
-      .catch(errf => {
-        console.error('Failed to copy: ', err);
-        copyButton.textContent = 'Error';
-      });
-  });
-</script> 
+Before moving directly towards the first step, that is synthesis, we will take a look on the fundamentals which will be influensing in our work.
