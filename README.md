@@ -12,4 +12,7 @@ Here we are talking about an open source package desigened to create *GDSII* fil
 <li>Sign off
 </ol>
 <br>
-Before moving directly towards the first step, that is synthesis, we will take a look on the fundamentals which will be influensing in our work. 
+Before moving directly towards the first step, that is synthesis, we will take a look how to setup the OpenLANE package.
+<br>
+<br>
+First of all, we will be using Ubuntu 18.04 operating system for using OpenLANE Package. <br>
