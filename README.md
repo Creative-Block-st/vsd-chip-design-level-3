@@ -16,3 +16,5 @@ Before moving directly towards the first step, that is synthesis, we will take a
 <br>
 <br>
 First of all, we will be using Ubuntu 18.04 operating system for using OpenLANE Package. <br>
+![Screenshot 2025-01-29 192055](https://github.com/user-attachments/assets/0a259704-b994-448b-a5bb-f720af99302b)
+
