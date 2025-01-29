@@ -12,4 +12,4 @@ Here we are talking about an open source package desigened to create *GDSII* fil
 <li>Sign off
 </ol>
 <br>
-Before  
+Before moving directly towards the first step, that is synthesis, we will take a look on the fundamentals which will be influensing in our work. 
