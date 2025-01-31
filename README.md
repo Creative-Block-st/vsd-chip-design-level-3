@@ -61,3 +61,9 @@ After the floorplan, we will have another process called cell placement, here th
 ```
   run_placement
 ```
+In placement, like in floorplan, we can fiew the layout in magic by the same code but the *.lef* and *.def* should be assosiated with cell placement, you yust have to cahange *.def* file, *.lef* file will be the same.
+```
+  magic -T [!---path of 'lef' file---] read [!---path of 'def' file---] .def $
+```
+And you will
+get the output:
