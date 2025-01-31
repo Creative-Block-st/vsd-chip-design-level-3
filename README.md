@@ -1,18 +1,17 @@
 # Introduction
-You all have used simple electronic appliances like washing machines, refrigerators, microwaves, ovens etc. and also some smart appliances and other products like laptops and mobiles. Many of the appliances are able to perform one task and some to perform one task more eficiently and some are to perform multiple tasks. But, what is common among all of these products, that is its processing unit, its core. That is its chip! 
+You all have used simple electronic appliances like washing machines, refrigerators, microwaves, ovens etc. and also some smart appliances and other products like laptops and mobiles. Many of the appliances are able to perform one task and some to perform one task more eficiently and some are to perform multiple tasks. But, what is common among all of these products, that is its processing unit, its core. That is its chip!
+ssd 
 Chip design is a very interesting (and comlex) medium in chip design we can create everything that we want for our use and th euse of the world or it can be a way to do so.
 # OpenLane
 Here we are talking about an open source package desigened to create *GDSII* file while we put input of *RTL* and *PDK* files. These files are very complicated to understand in one view. But we are not here about that all file task. We will just understand about, What comes under OpenLANE Package.<br>
-<ol type=1>
-<li> Synthesis
-<li>Floor planning and Power Planning
-<li>Placement
-<li>Clock tree synthesis
-<li>Routing
-<li>Sign off
-</ol>
+1. Synthesis
+2. Floor planning and Power Planning
+3. Placement
+4. Clock tree synthesis
+5. Routing
+6. Sign off
 <br>
-Before moving directly towards the first step, that is synthesis, we will take a look how to setup the OpenLANE package.
+### Before moving directly towards the first step, that is synthesis, we will take a look how to setup the OpenLANE package.
 <br>
 <br>
 First of all, we will be using Ubuntu 18.04 operating system for using OpenLANE Package. <br>
@@ -51,5 +50,6 @@ After preperation, we will run the synthesis process:-
   </code>
 </pre>
 ![Screenshot 2025-01-27 220919](https://github.com/user-attachments/assets/63bd6252-8e16-4bb4-88c4-341d6cedc50d) <br>
-<i>Flop Flop ratio = 11.0446356547459</i>
+<i>Flop Flop ratio = 11.0446356547459</i> <br>
+After the process of synthesis we will 
 
