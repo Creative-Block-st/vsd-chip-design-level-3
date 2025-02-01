@@ -67,3 +67,29 @@ In placement, like in floorplan, we can fiew the layout in magic by the same cod
 ```
 And you will
 get the output:
+![Screenshot 2025-01-30 213205](https://github.com/user-attachments/assets/18d5ab10-0f2a-42bd-b70a-686c7e411404)
+
+# Spice deck file
+In this file, we can see the input and output state of the design, and it is a quite long process. First of all, type this line in the terminal of openlane folder 
+```
+  git clone https://github.com/nickson-jose/vsdstdcelldesign.git 
+```
+This will create a new folder inside your openlane folder named *vsdstdcelldesign*. Before opening that folder, we have to copy *sky130A.tech* which is present inside magic folder, to the new file that is created just now and enter the code 
+```
+  magic -T sky130A.tech sky130_inv.mag $
+```
+And you will see the following layout:
+![Screenshot 2025-02-01 123016](https://github.com/user-attachments/assets/dc2b2641-955c-43f4-99b8-412a35803c8f)
+
+After that we have to write *extract all* in the other window that opens with the  magic tool.
+![Screenshot 2025-02-01 152931](https://github.com/user-attachments/assets/937a337a-c011-48d5-9bf6-8e7f79a17066)
+
+This will create an another file in the *vsdstdcelldesign* as *sky130_inv.ext*. Then once again open the same window and enter *ext2spice cthresh 0 rthresh 0* and in the next promot, type  *ext2spice* and once again open the folder *vsdstdcelldesign* and there will be one more file named *sky130_inv.spice*. And to read the file, in the terminal enter *vim sky130_inv.spice*, and it will redirect you to this page 👇:
+![Screenshot 2025-02-01 155305](https://github.com/user-attachments/assets/b2bfbcc8-9474-4140-ae36-8df2c37ba2c8)
+
+And you have to make some changes like this in that file:
+![Screenshot 2025-02-01 160601](https://github.com/user-attachments/assets/d05166ca-2827-4d10-a95a-74d25462e364)
+
+
+
+
