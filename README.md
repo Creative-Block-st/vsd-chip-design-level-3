@@ -89,8 +89,6 @@ This will create an another file in the *vsdstdcelldesign* as *sky130_inv.ext*. 
 And you have to make some changes like this in that file: <br> 
 ![Screenshot 2025-02-01 160601](https://github.com/user-attachments/assets/d05166ca-2827-4d10-a95a-74d25462e364)
 
-> Ok time is over now
-
 
 
 
